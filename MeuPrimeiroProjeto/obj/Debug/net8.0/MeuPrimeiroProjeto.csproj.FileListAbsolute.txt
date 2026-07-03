@@ -1,0 +1,15 @@
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\bin\Debug\net8.0\MeuPrimeiroProjeto.exe
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\bin\Debug\net8.0\MeuPrimeiroProjeto.deps.json
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\bin\Debug\net8.0\MeuPrimeiroProjeto.runtimeconfig.json
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\bin\Debug\net8.0\MeuPrimeiroProjeto.dll
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\bin\Debug\net8.0\MeuPrimeiroProjeto.pdb
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\obj\Debug\net8.0\MeuPrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\obj\Debug\net8.0\MeuPrimeiroProjeto.AssemblyInfoInputs.cache
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\obj\Debug\net8.0\MeuPrimeiroProjeto.AssemblyInfo.cs
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\obj\Debug\net8.0\MeuPrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\obj\Debug\net8.0\MeuPrimeiroProjeto.sourcelink.json
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\obj\Debug\net8.0\MeuPrimeiroProjeto.dll
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\obj\Debug\net8.0\refint\MeuPrimeiroProjeto.dll
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\obj\Debug\net8.0\MeuPrimeiroProjeto.pdb
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\obj\Debug\net8.0\MeuPrimeiroProjeto.genruntimeconfig.cache
+C:\Users\Valvassori\Downloads\wdd231\MeuPrimeiroProjeto\obj\Debug\net8.0\ref\MeuPrimeiroProjeto.dll
