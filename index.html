@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 | Home</title>
+
+    <meta name="description" content="WDD231 Home Page">
+    <meta name="author" content="Alice Reis">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            <img src="images/logo.svg" alt="Logo" width="60">
+            <span>WDD231</span>
+        </div>
+
+        <button id="menu">☰</button>
+
+    </header>
+
+    <nav id="navMenu">
+
+        <ul>
+
+            <li><a href="index.html" class="active">Home</a></li>
+
+            <li><a href="#">Chamber Project</a></li>
+
+            <li><a href="#">Final Project</a></li>
+
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <h1>Home</h1>
+
+        <div class="top">
+
+            <section class="card">
+
+                <h2>About Me</h2>
+
+                <p>
+                    Hello! My name is Alice Reis. I am a Software Development student at BYU–Idaho. I enjoy learning
+                    HTML, CSS, JavaScript, and C#. I am passionate about technology and continuously improving my
+                    programming skills.
+                </p>
+
+            </section>
+
+            <section class="card">
+
+                <h2>Student Photo</h2>
+
+                <img src="images/profile.webp" alt="Alice Reis">
+
+            </section>
+
+        </div>
+
+        <section class="card">
+
+            <h2>Web Certificate Courses</h2>
+
+            <div class="buttons">
+
+                <button id="allCourses">All</button>
+
+                <button id="wddCourses">WDD</button>
+
+                <button id="cseCourses">CSE</button>
+
+            </div>
+
+            <div id="courseContainer"></div>
+
+            <p id="credits"></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="social">
+
+            <a href="#">GitHub</a>
+
+            <a href="#">LinkedIn</a>
+
+            <a href="#">Instagram</a>
+
+        </div>
+
+        <p>
+
+            © <span id="currentyear"></span>
+
+            Alice Reis | Brazil
+
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>

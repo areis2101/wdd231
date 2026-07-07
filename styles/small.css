@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #0B3C5D;
+    --secondary: #328CC1;
+    --accent: #D9B310;
+    --light: #F5F5F5;
+    --dark: #222;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: var(--light);
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    background: var(--primary);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.logo span {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* MENU */
+
+#menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+    background: var(--primary);
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    transition: .3s;
+}
+
+nav a:hover {
+    background: var(--secondary);
+}
+
+.active {
+    background: var(--accent);
+    color: black;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+.card h2 {
+    margin-bottom: .8rem;
+}
+
+/* BOTÕES */
+
+.buttons {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.buttons button {
+    flex: 1;
+    padding: .7rem;
+    border: none;
+    background: var(--primary);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background: var(--secondary);
+}
+
+/* CURSOS */
+
+#courseContainer {
+    display: grid;
+    gap: 1rem;
+}
+
+.course-card {
+    padding: 1rem;
+    border-radius: 8px;
+    background: #eee;
+}
+
+.course-card.completed {
+    background: #c8f7c5;
+    border-left: 6px solid green;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social img {
+    width: 35px;
+}
+#courseContainer{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:1rem;
+    margin-top:1rem;
+}
+
+.course-card{
+    background:#d9d9d9;
+    border-radius:8px;
+    padding:1rem;
+    text-align:center;
+    font-weight:bold;
+}
+
+.course-card.completed{
+    background:#8B4513;
+    color:white;
+}
+
+#credits{
+    margin-top:1rem;
+    text-align:center;
+    font-weight:bold;
+}
