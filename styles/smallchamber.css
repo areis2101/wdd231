@@ -1,0 +1,243 @@
+/* ==========================================
+   WDD 231 - Chamber of Commerce
+   small.css (Mobile First)
+========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary:#d9d9d9;
+    --secondary:#444;
+    --accent:#1d4ed8;
+    --background:#ffffff;
+    --text:#222;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height:1.5;
+}
+
+/* ---------- HEADER ---------- */
+
+header{
+    background: var(--primary);
+    padding:1rem;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+}
+
+.logo img{
+    width:55px;
+}
+
+.logo h1{
+    font-size:1.3rem;
+}
+
+.logo p{
+    font-size:.9rem;
+}
+
+#menu{
+    display:block;
+    margin-top:1rem;
+    border:none;
+    background:none;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+.navigation{
+    list-style:none;
+    display:none;
+    flex-direction:column;
+}
+
+.navigation.open{
+    display:flex;
+}
+
+.navigation li{
+    margin:.5rem 0;
+}
+
+.navigation a{
+    text-decoration:none;
+    color:var(--text);
+    font-weight:600;
+}
+
+.navigation a:hover{
+    color:var(--accent);
+}
+
+/* ---------- MAIN ---------- */
+
+main{
+    max-width:1200px;
+    margin:auto;
+    padding:1rem;
+}
+
+main h2{
+    margin-bottom:1rem;
+    font-size:2rem;
+}
+
+/* ---------- BUTTONS ---------- */
+
+.view-buttons{
+    display:flex;
+    justify-content:center;
+    gap:1rem;
+    margin:1.5rem 0;
+}
+
+.view-buttons button{
+    width:100px;
+    padding:.6rem;
+    cursor:pointer;
+    border:1px solid #666;
+    background:#efefef;
+    font-size:1rem;
+}
+
+.view-buttons button:hover{
+    background:#ddd;
+}
+
+/* ---------- GRID ---------- */
+
+#members.grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:1rem;
+}
+
+/* ---------- CARD ---------- */
+
+.card{
+    background:#f2f2f2;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 0 8px rgba(0,0,0,.15);
+}
+
+.card-header{
+    text-align:center;
+    padding:.8rem;
+    border-bottom:1px solid #bbb;
+}
+
+.card-header h3{
+    font-size:1.5rem;
+}
+
+.card-header p{
+    font-size:.9rem;
+}
+
+.card-content{
+    display:grid;
+    grid-template-columns:100px 1fr;
+    gap:1rem;
+    padding:1rem;
+    align-items:center;
+}
+
+.card img{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    border:1px solid #777;
+}
+
+.card p{
+    margin:.3rem 0;
+}
+
+.card a{
+    color:var(--accent);
+    text-decoration:none;
+}
+
+.card a:hover{
+    text-decoration:underline;
+}
+
+/* ---------- LIST VIEW ---------- */
+
+#members.list{
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
+}
+
+#members.list .card{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding:1rem;
+}
+
+#members.list .card-header{
+    border:none;
+    text-align:left;
+    padding:0;
+    margin-right:2rem;
+}
+
+#members.list img{
+    width:70px;
+    height:70px;
+}
+
+#members.list .card-content{
+    display:block;
+    padding:0;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    background:var(--primary);
+    margin-top:2rem;
+    padding:1.5rem;
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
+
+.footer-left h3{
+    margin-bottom:.5rem;
+}
+
+.footer-center{
+    display:flex;
+    justify-content:center;
+    gap:1rem;
+}
+
+.footer-center img{
+    width:50px;
+    cursor:pointer;
+}
+
+.footer-right{
+    font-size:.9rem;
+}
+
+.footer-right span{
+    font-weight:bold;
+}

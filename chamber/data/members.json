@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Iron Forge Fitness",
+    "tagline": "Build Your Best Self",
+    "address": "100 Muscle Way, Timbuktu",
+    "phone": "800-555-1001",
+    "email": "info@ironforge.com",
+    "website": "ironforge.com",
+    "image": "gym.png",
+    "membershipLevel": 2
+  },
+  {
+    "name": "Elegant Styles Salon",
+    "tagline": "Beauty & Relaxation",
+    "address": "45 Beauty Lane, Timbuktu",
+    "phone": "800-555-1002",
+    "email": "contact@elegantstyles.com",
+    "website": "elegantstyles.com",
+    "image": "salon.png",
+    "membershipLevel": 1
+  },
+  {
+    "name": "Wonderland Toys",
+    "tagline": "Fun for All Ages",
+    "address": "88 Play Street, Timbuktu",
+    "phone": "800-555-1003",
+    "email": "hello@wonderlandtoys.com",
+    "website": "wonderlandtoys.com",
+    "image": "toystore.png",
+    "membershipLevel": 2
+  },
+  {
+    "name": "Sweet Treats Parlor",
+    "tagline": "Best Desserts in Town",
+    "address": "22 Sugar Blvd, Timbuktu",
+    "phone": "800-555-1004",
+    "email": "yummy@sweettreats.com",
+    "website": "sweettreats.com",
+    "image": "bananasplit.png",
+    "membershipLevel": 1
+  },
+  {
+    "name": "The Golden Plate",
+    "tagline": "Fine Dining Experience",
+    "address": "10 Gourmet Ave, Timbuktu",
+    "phone": "800-555-1005",
+    "email": "reservations@goldenplate.com",
+    "website": "goldenplate.com",
+    "image": "dinner.png",
+    "membershipLevel": 3
+  },
+  {
+    "name": "Summit Outdoor Gear",
+    "tagline": "Ready for Adventure",
+    "address": "300 Explorer Road, Timbuktu",
+    "phone": "800-555-1006",
+    "email": "sales@summitgear.com",
+    "website": "summitgear.com",
+    "image": "hike.png",
+    "membershipLevel": 2
+  },
+  {
+    "name": "Prime Real Estate",
+    "tagline": "Find Your Dream Home",
+    "address": "55 Property Plaza, Timbuktu",
+    "phone": "800-555-1007",
+    "email": "agent@primerealestate.com",
+    "website": "primerealestate.com",
+    "image": "house.png",
+    "membershipLevel": 3
+  }
+]

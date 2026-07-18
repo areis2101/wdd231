@@ -1,0 +1,189 @@
+/* Base Variables & Setup */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --card-bg: #e2e2e2; 
+    --card-border: #cccccc;
+    --header-footer-bg: #e2e2e2; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: var(--header-footer-bg);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.logo-container h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: left;
+}
+
+.header-controls {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 1rem;
+}
+
+.header-controls button {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Main Content & Buttons */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.view-menu {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.view-menu button {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #333;
+    background-color: #ccc;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* --- Card Styles --- */
+#directory-container {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column mobile */
+    gap: 1.5rem;
+}
+
+#directory-container section {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+
+.tagline {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #aaa;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.card-body {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.card-body img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #999;
+}
+
+.card-info p {
+    margin: 0.3rem 0;
+    font-size: 0.85rem;
+}
+
+.card-info a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* List View Override - Mobile */
+#directory-container.list section {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    box-shadow: none;
+}
+
+#directory-container.list .card-body img {
+    display: none; /* Esconde imagens no modo lista */
+}
+
+/* Footer */
+footer {
+    background-color: var(--header-footer-bg);
+    padding: 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-top: 1px solid #ccc;
+}
+
+.footer-info p, .footer-dev p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #777; 
+}

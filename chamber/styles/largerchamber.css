@@ -1,0 +1,76 @@
+@media (min-width: 768px) {
+
+    /* Header Layout */
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    .logo-container {
+        margin-bottom: 0;
+    }
+
+    /* Navegação horizontal */
+    nav ul {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    main h2 {
+        text-align: left;
+    }
+
+    /* Grid View - 3 Columns */
+    #directory-container.grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* List View - Desktop Layout */
+    #directory-container.list section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 1rem;
+    }
+
+    #directory-container.list hr {
+        display: none;
+    }
+
+    #directory-container.list .card-header {
+        text-align: left;
+        flex: 1;
+    }
+
+    #directory-container.list .card-body {
+        flex: 2;
+        justify-content: flex-end;
+    }
+
+    /* Footer Layout - 3 Columns */
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 5%;
+    }
+
+    .footer-info {
+        flex: 1;
+    }
+
+    .social-icons {
+        flex: 1;
+        justify-content: center;
+    }
+
+    .footer-dev {
+        flex: 1;
+        text-align: right;
+    }
+}
