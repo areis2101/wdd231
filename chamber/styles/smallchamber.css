@@ -2,17 +2,25 @@
 :root {
     --bg-color: #ffffff;
     --text-color: #333333;
-    --card-bg: #e2e2e2; 
+    --card-bg: #e2e2e2;
     --card-border: #cccccc;
-    --header-footer-bg: #e2e2e2; 
+    --header-footer-bg: #e2e2e2;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
+    /* Atualizado para usar a Google Font */
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.5;
     margin: 0;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
 }
 
 /* Header */
@@ -92,7 +100,8 @@ main h2 {
 /* --- Card Styles --- */
 #directory-container {
     display: grid;
-    grid-template-columns: 1fr; /* 1 column mobile */
+    grid-template-columns: 1fr;
+    /* 1 column mobile */
     gap: 1.5rem;
 }
 
@@ -101,7 +110,7 @@ main h2 {
     border-radius: 8px;
     overflow: hidden;
     padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card-header {
@@ -157,7 +166,8 @@ hr {
 }
 
 #directory-container.list .card-body img {
-    display: none; /* Esconde imagens no modo lista */
+    display: none;
+    /* Esconde imagens no modo lista */
 }
 
 /* Footer */
@@ -171,7 +181,8 @@ footer {
     border-top: 1px solid #ccc;
 }
 
-.footer-info p, .footer-dev p {
+.footer-info p,
+.footer-dev p {
     margin: 0.2rem 0;
     font-size: 0.9rem;
 }
@@ -185,5 +196,5 @@ footer {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #777; 
+    background-color: #777;
 }

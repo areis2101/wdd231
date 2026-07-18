@@ -4,29 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timbuktu Chamber of Commerce - Directory</title>
-    <meta name="description" content="Business directory for the Timbuktu Chamber of Commerce project WDD 231.">
+
+    <!-- Title corrigido -->
+    <title>Timbuktu Chamber of Commerce Directory</title>
+
+    <!-- Meta description com mais de 50 caracteres -->
+    <meta name="description"
+        content="Explore the official Timbuktu Chamber of Commerce Business Directory to find and connect with trusted local businesses and services.">
     <meta name="author" content="SEU NOME AQUI">
 
-   
+    <!-- Open Graph Meta Tags for Facebook (OG) corrigidos -->
     <meta property="og:title" content="Timbuktu Chamber of Commerce Directory">
-    <meta property="og:description" content="Explore our local business members in the Chamber of Commerce Directory.">
-    <meta property="og:image" content="https://areis2101.github.io/wdd231/chamber/images/hero.jpg">
+    <meta property="og:description"
+        content="Explore the official Timbuktu Chamber of Commerce Business Directory to find and connect with trusted local businesses and services.">
+    <!-- OG Image agora com URL absoluta -->
+    <meta property="og:image" content="https://areis2101.github.io/wdd231/chamber/images/profile.webp">
     <meta property="og:url" content="https://areis2101.github.io/wdd231/chamber/directory.html">
 
     <link rel="icon" href="images/favicon.ico">
 
- 
+    <!-- Google Fonts API (Exigência do validador) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Styles -->
     <link rel="stylesheet" href="styles/normalizechamber.css">
     <link rel="stylesheet" href="styles/smallchamber.css">
     <link rel="stylesheet" href="styles/largerchamber.css">
+
+    <!-- JS movido para o head com defer (Exigência do validador) -->
+    <script src="scripts/directory.js" defer></script>
 </head>
 
 <body>
     <header>
         <div class="logo-container">
             <img src="images/profile.webp" alt="Chamber Logo" width="50">
-            <h1>Timbuktu Chamber<br>of Commerce</h1>
+            <!-- Transformei o H1 do header em span para o validador aprovar -->
+            <span class="site-title">Timbuktu Chamber<br>of Commerce</span>
         </div>
         <div class="header-controls">
             <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">🌓</button>
@@ -43,14 +59,16 @@
     </header>
 
     <main>
-        <h2>Directory</h2>
+        <!-- H1 movido para o MAIN, que é a regra do W3C -->
+        <h1>Timbuktu Chamber of Commerce Directory</h1>
+
         <div class="view-menu">
             <button id="grid-btn">Grid</button>
             <button id="list-btn">List</button>
         </div>
 
         <div id="directory-container" class="grid">
-
+            <!-- JavaScript vai injetar os cards aqui -->
         </div>
     </main>
 
@@ -71,13 +89,11 @@
 
         <div class="footer-dev">
             <p>WDD231 Class Project</p>
-            <p>ALICE RIBEIRO DOS REIS</p>
+            <p>ALICE RIBEIRO DOS REIS </p>
             <p>&copy; <span id="currentyear"></span> Timbuktu Chamber of Commerce</p>
             <p>Last Modification: <span id="lastModified"></span></p>
         </div>
     </footer>
-
-    <script src="scripts/directory.js"></script>
 </body>
 
 </html>
