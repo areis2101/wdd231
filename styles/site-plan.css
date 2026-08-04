@@ -1,0 +1,152 @@
+:root {
+    --teal: #0F4C5C;
+    --aqua: #5FB5B0;
+    --soft-white: #F7FAFA;
+    --text: #1c2b2e;
+    --heading-font: "Montserrat", sans-serif;
+    --body-font: "Open Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--body-font);
+    color: var(--text);
+    background-color: var(--soft-white);
+    line-height: 1.6;
+}
+
+header,
+footer {
+    background-color: var(--teal);
+    color: var(--soft-white);
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--heading-font);
+}
+
+header h1 {
+    margin: 0 0 0.25rem;
+    font-size: 1.8rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section {
+    background-color: #ffffff;
+    border-left: 6px solid var(--aqua);
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 2px 6px rgba(15, 76, 92, 0.12);
+}
+
+h2 {
+    color: var(--teal);
+    border-bottom: 2px solid var(--aqua);
+    padding-bottom: 0.35rem;
+    margin-top: 0.5rem;
+}
+
+h3 {
+    color: var(--teal);
+    margin-bottom: 0.25rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.75rem;
+}
+
+caption {
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    color: var(--teal);
+}
+
+th,
+td {
+    border: 1px solid var(--aqua);
+    padding: 0.6rem;
+    text-align: left;
+}
+
+th {
+    background-color: var(--teal);
+    color: var(--soft-white);
+    font-family: var(--heading-font);
+    font-weight: 600;
+}
+
+.swatch {
+    display: inline-block;
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--text);
+}
+
+.swatch-teal { background-color: var(--teal); }
+.swatch-aqua { background-color: var(--aqua); }
+.swatch-white { background-color: var(--soft-white); }
+
+dt {
+    font-weight: 700;
+    color: var(--teal);
+    margin-top: 0.75rem;
+}
+
+dt.font-heading { font-family: var(--heading-font); }
+dt.font-body { font-family: var(--body-font); }
+
+dd {
+    margin: 0.25rem 0 0.5rem 1rem;
+}
+
+figure {
+    margin: 1.25rem 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid var(--aqua);
+    border-radius: 6px;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+    color: var(--teal);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+@media (min-width: 640px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+}
