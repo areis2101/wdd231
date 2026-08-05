@@ -1,0 +1,144 @@
+{
+  "responses": [
+    {
+      "id": 1,
+      "category": "First Contact",
+      "title": "Welcome / first reply",
+      "keywords": ["hello", "hi", "first", "contact", "welcome", "new client", "inquiry"],
+      "text": "Hi! Thank you so much for reaching out to Sparkle Home Cleaning! 😊 We'd love to help you keep your home spotless. Could you tell me a little about your home (size, number of bedrooms and bathrooms) and how often you'd like the cleaning? Then I can send you all the details and a quote!"
+    },
+    {
+      "id": 2,
+      "category": "First Contact",
+      "title": "Ask for house details",
+      "keywords": ["details", "size", "bedrooms", "bathrooms", "square feet", "quote", "estimate"],
+      "text": "To give you an accurate quote, could you share: 1) the approximate size of your home (square feet), 2) number of bedrooms and bathrooms, 3) if you have pets, and 4) how often you'd like the service (weekly, bi-weekly, or monthly)? Thank you!"
+    },
+    {
+      "id": 3,
+      "category": "Regular Cleaning",
+      "title": "What's included - regular cleaning",
+      "keywords": ["regular", "included", "standard", "routine", "what do you clean"],
+      "text": "Our regular cleaning is very detailed and includes: bed linen change, interior microwave cleaning, kitchen counters fully cleared and cleaned underneath, glass/sliding kitchen doors cleaned inside and out, dusting, vacuuming, mopping, bathrooms, and kitchen. We take care of every detail so your home feels fresh in every corner!"
+    },
+    {
+      "id": 4,
+      "category": "Regular Cleaning",
+      "title": "Windows not included in regular",
+      "keywords": ["windows", "window cleaning", "not included", "glass"],
+      "text": "Just so you know, window cleaning is not included in the regular cleaning — but it can be added as an extra service or done as part of a deep clean. I'll send you a catalog with everything that's included in both the regular and deep cleaning!"
+    },
+    {
+      "id": 5,
+      "category": "Deep Cleaning",
+      "title": "What's included - deep cleaning",
+      "keywords": ["deep", "deep clean", "detailed", "heavy", "first time"],
+      "text": "Our deep cleaning covers everything in the regular cleaning plus: baseboards, interior windows, inside the oven and refrigerator, cabinet fronts, door frames, light switches, vents, and hard-to-reach areas. It's perfect for a first visit or a seasonal refresh!"
+    },
+    {
+      "id": 6,
+      "category": "Deep Cleaning",
+      "title": "Regular vs deep - difference",
+      "keywords": ["difference", "regular vs deep", "compare", "which one"],
+      "text": "Great question! The regular cleaning keeps your home fresh week to week (surfaces, floors, bathrooms, kitchen, linen change). The deep cleaning goes further — baseboards, inside appliances, interior windows, vents, and detailed corners. Most clients start with a deep clean, then keep a regular schedule."
+    },
+    {
+      "id": 7,
+      "category": "Pricing",
+      "title": "Monthly price - large home",
+      "keywords": ["price", "cost", "monthly", "250", "how much", "rate", "3000"],
+      "text": "For a home around 3,000 sq ft, our monthly regular cleaning is $250 per visit. That includes our full detailed service — bed linen change, microwave interior, counters cleared and cleaned, and glass kitchen doors inside and out. Would you like to schedule a first visit?"
+    },
+    {
+      "id": 8,
+      "category": "Pricing",
+      "title": "Carpet cleaning add-on",
+      "keywords": ["carpet", "rug", "shampoo", "sanitize", "60", "80"],
+      "text": "Yes, we do offer carpet cleaning! It's not included in the standard price — it's charged separately per room/area, around $60–$80 each, depending on the size and the level of dirt. Would you like me to add it to your service?"
+    },
+    {
+      "id": 9,
+      "category": "Pricing",
+      "title": "Deep clean price varies",
+      "keywords": ["deep price", "deep cost", "deep cleaning price"],
+      "text": "The deep cleaning price depends on the size and current condition of the home. After you share the details (size, bedrooms, bathrooms), I'll send you an exact quote — no surprises, the price we agree on is the price you pay!"
+    },
+    {
+      "id": 10,
+      "category": "Scheduling",
+      "title": "Availability / book a visit",
+      "keywords": ["schedule", "available", "availability", "book", "when", "appointment"],
+      "text": "We'd love to get you on the schedule! What days and times usually work best for you? We'll do our best to find a spot that fits your routine — mornings and afternoons are available."
+    },
+    {
+      "id": 11,
+      "category": "Scheduling",
+      "title": "Appointment confirmation",
+      "keywords": ["confirm", "confirmation", "booked", "see you"],
+      "text": "Perfect, you're all set! ✨ Your cleaning is confirmed for [DAY, DATE] at [TIME]. We bring all our own supplies and equipment. If anything changes, just send us a message. See you soon!"
+    },
+    {
+      "id": 12,
+      "category": "Scheduling",
+      "title": "Reschedule request",
+      "keywords": ["reschedule", "change date", "cancel", "move appointment"],
+      "text": "No problem at all — life happens! 😊 What new day and time would work better for you? I'll check our schedule and confirm right away."
+    },
+    {
+      "id": 13,
+      "category": "Services",
+      "title": "We bring our own supplies",
+      "keywords": ["supplies", "products", "equipment", "bring", "chemicals", "eco"],
+      "text": "You don't need to provide anything — we bring all our own professional supplies and equipment! If you prefer specific products (or eco-friendly/pet-safe options), just let us know and we're happy to use them."
+    },
+    {
+      "id": 14,
+      "category": "Services",
+      "title": "Pets are welcome",
+      "keywords": ["pets", "dog", "cat", "animals", "pet friendly"],
+      "text": "We love pets! 🐾 It helps to know in advance how many pets you have and if there's anything we should keep in mind (like keeping a door closed). We use pet-safe products upon request."
+    },
+    {
+      "id": 15,
+      "category": "Services",
+      "title": "Move-in / move-out cleaning",
+      "keywords": ["move", "move-in", "move-out", "moving", "empty house"],
+      "text": "Yes, we do move-in/move-out cleanings! It's a complete top-to-bottom service for an empty home: inside cabinets, appliances, closets, baseboards, and more — perfect for getting a deposit back or starting fresh. Share the home size and I'll send a quote!"
+    },
+    {
+      "id": 16,
+      "category": "Follow-up",
+      "title": "After the first cleaning",
+      "keywords": ["follow up", "feedback", "how was it", "first visit"],
+      "text": "Hi! We hope you loved your first cleaning with us! 💛 Was everything to your satisfaction? Your feedback helps us take even better care of your home. If you'd like, I can already reserve your spot for the next visit."
+    },
+    {
+      "id": 17,
+      "category": "Follow-up",
+      "title": "Review request",
+      "keywords": ["review", "google", "rating", "stars", "recommend"],
+      "text": "So happy you're pleased with our service! If you have a minute, a quick Google review would mean the world to our small business. ⭐ Thank you so much for your trust — see you at the next cleaning!"
+    },
+    {
+      "id": 18,
+      "category": "Follow-up",
+      "title": "Polite close - not interested",
+      "keywords": ["not interested", "no thanks", "declined", "maybe later"],
+      "text": "Thank you so much for considering Sparkle Home Cleaning! If anything changes or you'd like a quote in the future, we're always here. Wishing you a wonderful week! 😊"
+    },
+    {
+      "id": 19,
+      "category": "Pricing",
+      "title": "Payment methods",
+      "keywords": ["payment", "pay", "zelle", "venmo", "cash", "check"],
+      "text": "We accept Zelle, Venmo, cash, or check — whatever is easiest for you! Payment is due on the day of the cleaning. A receipt is available upon request."
+    },
+    {
+      "id": 20,
+      "category": "Services",
+      "title": "Satisfaction guarantee",
+      "keywords": ["guarantee", "satisfaction", "redo", "not happy", "complaint"],
+      "text": "Your satisfaction is our priority! If anything was missed or isn't perfect, let us know within 24 hours and we'll come back and make it right — free of charge, no questions asked."
+    }
+  ]
+}
