@@ -293,6 +293,27 @@
       "title": "They declined - polite close",
       "keywords": ["declined", "no", "refused", "close"],
       "text": "No problem at all, [Name] — thanks for letting me know! If anything changes, I'm right here."
+    },
+    {
+      "id": 43,
+      "category": "Follow-up",
+      "title": "Cleaning up my list (use AFTER 2-3 follow-ups)",
+      "keywords": ["cleaning up", "list", "remove", "close it out", "last resort", "no response"],
+      "text": "Hi [Name]! [Your name] here.\n\nI'm cleaning up my list and didn't want to remove you without checking.\n\nStill want that cleaning, or should I close it out?"
+    },
+    {
+      "id": 44,
+      "category": "Follow-up",
+      "title": "Yes or No close (use AFTER 2-3 follow-ups)",
+      "keywords": ["yes or no", "still interested", "quick answer", "close"],
+      "text": "Hi [Name]! Just a quick one — are you still interested in that cleaning?\n\nA simple yes or no works 🙂 If yes, I'll send you the next available times."
+    },
+    {
+      "id": 45,
+      "category": "Follow-up",
+      "title": "20% off for booking an estimate",
+      "keywords": ["discount", "20", "percent", "off", "promo", "offer"],
+      "text": "Hi [Name]! Good news — this week we're offering 20% off for anyone who books their free estimate.\n\nI have [day] at [time] open. Want me to lock it in with the discount for you?"
     }
   ]
 }
