@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore all Avek Cleaning services - regular, deep, move-in/move-out, offices, Airbnb turnovers and add-ons. Filter by category and save your favorites.">
+    <meta name="author" content="Alice Reis">
+    <meta property="og:title" content="Services | Avek Cleaning">
+    <meta property="og:description" content="All Avek Cleaning services with details on what's included, duration, and team size.">
+    <meta property="og:image" content="https://areis2101.github.io/wdd231/final/images/hero.webp">
+    <meta property="og:url" content="https://areis2101.github.io/wdd231/final/services.html">
+    <meta property="og:type" content="website">
+    <title>Services | Avek Cleaning</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="module" src="scripts/services-page.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">✦ AVEK <span>Cleaning</span></a>
+            <button id="menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+            <nav id="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html" class="active" aria-current="page">Services</a></li>
+                    <li><a href="quote.html">Get a Quote</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-head">
+            <h1>Our Services</h1>
+            <p>Filter by category, click a card for full details, and star your favorites — they're saved for your next visit.</p>
+        </section>
+
+        <div id="categories" class="categories" aria-label="Filter services by category"></div>
+        <p id="result-count" class="result-count" aria-live="polite"></p>
+        <section id="service-cards" class="cards"></section>
+
+        <dialog id="service-modal">
+            <div class="modal-head">
+                <h2 id="modal-title"></h2>
+                <button id="modal-close" aria-label="Close dialog">✕</button>
+            </div>
+            <div id="modal-body"></div>
+            <a href="quote.html" class="btn">Request this service</a>
+        </dialog>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Avek Cleaning | Alice Reis | WDD 231 Final Project</p>
+        <p>
+            <a href="attributions.html">Attributions</a> ·
+            <a href="https://www.youtube.com/" id="video-link">Video Demonstration</a>
+        </p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

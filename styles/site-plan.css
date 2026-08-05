@@ -1,7 +1,7 @@
 :root {
-    --teal: #0F4C5C;
-    --aqua: #5FB5B0;
-    --soft-white: #F7FAFA;
+    --teal: #121212;
+    --aqua: #8B5CF6;
+    --soft-white: #FAF9FC;
     --text: #1c2b2e;
     --heading-font: "Montserrat", sans-serif;
     --body-font: "Open Sans", sans-serif;
@@ -55,7 +55,7 @@ section {
     border-radius: 6px;
     padding: 1rem 1.5rem;
     margin: 1.5rem 0;
-    box-shadow: 0 2px 6px rgba(15, 76, 92, 0.12);
+    box-shadow: 0 2px 6px rgba(18, 18, 18, 0.15);
 }
 
 h2 {

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Avek Cleaning - professional residential cleaning services. Regular, deep, and move-in/move-out cleanings with a free 15-minute estimate.">
+    <meta name="author" content="Alice Reis">
+    <meta property="og:title" content="Avek Cleaning | Professional Home Cleaning">
+    <meta property="og:description" content="Detailed residential cleaning services with a free 15-minute estimate. Your home, spotless in every corner.">
+    <meta property="og:image" content="https://areis2101.github.io/wdd231/final/images/hero.webp">
+    <meta property="og:url" content="https://areis2101.github.io/wdd231/final/">
+    <meta property="og:type" content="website">
+    <title>Avek Cleaning | Home</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="module" src="scripts/home.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">✦ AVEK <span>Cleaning</span></a>
+            <button id="menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+            <nav id="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="quote.html">Get a Quote</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/hero.webp" alt="Professional cleaning supplies arranged on a dark surface with purple cloths" width="1264" height="848">
+            <div class="hero-text">
+                <h1>Your home, spotless in every corner</h1>
+                <p>Detailed residential cleaning you can trust — we bring everything.</p>
+                <a href="quote.html" class="btn">Get a Free Estimate</a>
+            </div>
+        </section>
+
+        <p id="visit-message" class="visit-message"></p>
+
+        <section class="intro">
+            <h2>Why Avek?</h2>
+            <div class="why-grid">
+                <div class="why-card">
+                    <h3>Detail obsessed</h3>
+                    <p>Bed linen change, microwave interior, counters cleared and cleaned — the small things are our standard.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Free 15-min estimate</h3>
+                    <p>A quick walkthrough gives you an exact price on the spot. No guessing, no commitment.</p>
+                </div>
+                <div class="why-card">
+                    <h3>We bring everything</h3>
+                    <p>Professional supplies and equipment included. Eco-friendly and pet-safe options on request.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured">
+            <h2>Popular services</h2>
+            <div id="featured-cards" class="cards"></div>
+            <a href="services.html" class="btn btn-outline">See all services</a>
+        </section>
+
+        <section class="banner">
+            <img src="images/clean-room.webp" alt="Bright spotless living room after a professional cleaning" loading="lazy" width="1264" height="848">
+            <div>
+                <h2>Satisfaction guaranteed</h2>
+                <p>If anything was missed, tell us within 24 hours and we'll come back and make it right — free of charge.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Avek Cleaning | Alice Reis | WDD 231 Final Project</p>
+        <p>
+            <a href="attributions.html">Attributions</a> ·
+            <a href="https://www.youtube.com/" id="video-link">Video Demonstration</a>
+        </p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
