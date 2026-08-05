@@ -1,8 +1,8 @@
 :root {
-    --teal: #0F4C5C;
-    --aqua: #5FB5B0;
-    --soft-white: #F7FAFA;
-    --text: #1c2b2e;
+    --teal: #121212;
+    --aqua: #8B5CF6;
+    --soft-white: #FAF9FC;
+    --text: #1c1a22;
     --heading-font: "Montserrat", sans-serif;
     --body-font: "Open Sans", sans-serif;
 }
@@ -99,7 +99,7 @@ main {
     background: #fff;
 }
 
-#search:focus { outline: 3px solid rgba(95, 181, 176, 0.4); }
+#search:focus { outline: 3px solid rgba(139, 92, 246, 0.45); }
 
 .categories {
     display: flex;
@@ -127,7 +127,7 @@ main {
 
 .result-count {
     font-size: 0.85rem;
-    color: #4b5f63;
+    color: #5a5566;
     margin: 0.25rem 0 0.75rem;
 }
 
@@ -138,7 +138,7 @@ main {
     border-left: 5px solid var(--aqua);
     border-radius: 8px;
     padding: 1rem 1.15rem;
-    box-shadow: 0 2px 6px rgba(15, 76, 92, 0.12);
+    box-shadow: 0 2px 6px rgba(18, 18, 18, 0.15);
     display: flex;
     flex-direction: column;
 }
@@ -161,7 +161,7 @@ main {
     font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    background: rgba(95, 181, 176, 0.18);
+    background: rgba(139, 92, 246, 0.15);
     color: var(--teal);
     padding: 0.2rem 0.6rem;
     border-radius: 999px;
@@ -190,19 +190,19 @@ main {
     transition: background-color 0.25s ease;
 }
 
-.copy-btn:hover { background: #0c3d4a; }
+.copy-btn:hover { background: #6D28D9; }
 .copy-btn.copied { background: #2e7d32; }
 
 .used {
     font-size: 0.75rem;
-    color: #4b5f63;
+    color: #5a5566;
 }
 
 .no-results {
     text-align: center;
     padding: 2rem;
     font-style: italic;
-    color: #4b5f63;
+    color: #5a5566;
 }
 
 .about {
