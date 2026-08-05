@@ -168,7 +168,7 @@ main {
     white-space: nowrap;
 }
 
-.card p { margin: 0.6rem 0 0.9rem; font-size: 0.95rem; }
+.card p { margin: 0.6rem 0 0.9rem; font-size: 0.95rem; white-space: pre-line; }
 
 .card-bottom {
     margin-top: auto;

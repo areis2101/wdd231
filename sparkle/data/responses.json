@@ -2,143 +2,297 @@
   "responses": [
     {
       "id": 1,
-      "category": "First Contact",
-      "title": "Welcome / first reply",
-      "keywords": ["hello", "hi", "first", "contact", "welcome", "new client", "inquiry"],
-      "text": "Hi! Thank you so much for reaching out to Sparkle Home Cleaning! 😊 We'd love to help you keep your home spotless. Could you tell me a little about your home (size, number of bedrooms and bathrooms) and how often you'd like the cleaning? Then I can send you all the details and a quote!"
+      "category": "Opening",
+      "title": "New lead - no details yet",
+      "keywords": ["hello", "hi", "first", "new lead", "opening", "start"],
+      "text": "Hi [Name]! This is [Your name] with [Company].\n\nHappy to help! What kind of cleaning are you looking for — a deep clean, regular upkeep, or move-in/move-out?\n\nAnd what's your ZIP?"
     },
     {
       "id": 2,
-      "category": "First Contact",
-      "title": "Ask for house details",
-      "keywords": ["details", "size", "bedrooms", "bathrooms", "square feet", "quote", "estimate"],
-      "text": "To give you an accurate quote, could you share: 1) the approximate size of your home (square feet), 2) number of bedrooms and bathrooms, 3) if you have pets, and 4) how often you'd like the service (weekly, bi-weekly, or monthly)? Thank you!"
+      "category": "Opening",
+      "title": "Lead already sent all details",
+      "keywords": ["details", "already sent", "mirror", "repeat back"],
+      "text": "Hi [Name]! This is [Your name] with [Company].\n\nGot it — a [deep clean] on a [4 bed / 3.5 bath] in [City] before you move in. That's exactly what we do."
     },
     {
       "id": 3,
-      "category": "Regular Cleaning",
-      "title": "What's included - regular cleaning",
-      "keywords": ["regular", "included", "standard", "routine", "what do you clean"],
-      "text": "Our regular cleaning is very detailed and includes: bed linen change, interior microwave cleaning, kitchen counters fully cleared and cleaned underneath, glass/sliding kitchen doors cleaned inside and out, dusting, vacuuming, mopping, bathrooms, and kitchen. We take care of every detail so your home feels fresh in every corner!"
+      "category": "Opening",
+      "title": "\"What areas do you serve?\"",
+      "keywords": ["areas", "serve", "coverage", "where", "zip"],
+      "text": "Hi [Name]! This is [Your name] with [Company].\n\nWe cover [City] and the surrounding area. What's your ZIP? I'll confirm right away."
     },
     {
       "id": 4,
-      "category": "Regular Cleaning",
-      "title": "Windows not included in regular",
-      "keywords": ["windows", "window cleaning", "not included", "glass"],
-      "text": "Just so you know, window cleaning is not included in the regular cleaning — but it can be added as an extra service or done as part of a deep clean. I'll send you a catalog with everything that's included in both the regular and deep cleaning!"
+      "category": "Service Area",
+      "title": "Confirming we cover the area",
+      "keywords": ["zip", "confirm", "area", "covered"],
+      "text": "Perfect, we cover [City]!"
     },
     {
       "id": 5,
-      "category": "Deep Cleaning",
-      "title": "What's included - deep cleaning",
-      "keywords": ["deep", "deep clean", "detailed", "heavy", "first time"],
-      "text": "Our deep cleaning covers everything in the regular cleaning plus: baseboards, interior windows, inside the oven and refrigerator, cabinet fronts, door frames, light switches, vents, and hard-to-reach areas. It's perfect for a first visit or a seasonal refresh!"
+      "category": "Service Area",
+      "title": "Outside service area",
+      "keywords": ["outside", "not covered", "too far", "expanding"],
+      "text": "Thanks for checking, [Name]! We're not covering [City] just yet, but we're expanding — want me to reach out when we do?"
     },
     {
       "id": 6,
-      "category": "Deep Cleaning",
-      "title": "Regular vs deep - difference",
-      "keywords": ["difference", "regular vs deep", "compare", "which one"],
-      "text": "Great question! The regular cleaning keeps your home fresh week to week (surfaces, floors, bathrooms, kitchen, linen change). The deep cleaning goes further — baseboards, inside appliances, interior windows, vents, and detailed corners. Most clients start with a deep clean, then keep a regular schedule."
+      "category": "Estimate",
+      "title": "Explain the free walkthrough",
+      "keywords": ["walkthrough", "estimate", "visit", "free", "explain"],
+      "text": "For the exact price we do a quick walkthrough of the home — completely free, about 15 minutes, and no commitment.\n\nThat way you get a real number instead of a guess.\n\nDoes [day] between [time] and [time] work for you?"
     },
     {
       "id": 7,
-      "category": "Pricing",
-      "title": "Monthly price - large home",
-      "keywords": ["price", "cost", "monthly", "250", "how much", "rate", "3000"],
-      "text": "For a home around 3,000 sq ft, our monthly regular cleaning is $250 per visit. That includes our full detailed service — bed linen change, microwave interior, counters cleared and cleaned, and glass kitchen doors inside and out. Would you like to schedule a first visit?"
+      "category": "Estimate",
+      "title": "\"How long is the walkthrough?\"",
+      "keywords": ["how long", "walkthrough time", "15 minutes"],
+      "text": "Just 15 minutes — we look at the size and condition of the home and give you the exact price right there.\n\nDoes [day] at [time] work?"
     },
     {
       "id": 8,
-      "category": "Pricing",
-      "title": "Carpet cleaning add-on",
-      "keywords": ["carpet", "rug", "shampoo", "sanitize", "60", "80"],
-      "text": "Yes, we do offer carpet cleaning! It's not included in the standard price — it's charged separately per room/area, around $60–$80 each, depending on the size and the level of dirt. Would you like me to add it to your service?"
+      "category": "Estimate",
+      "title": "No visit wanted - collect details",
+      "keywords": ["no visit", "without visit", "rather not", "remote"],
+      "text": "No problem at all, [Name]! We can do it without the visit.\n\nI'll just need the size of the home, how many bedrooms and bathrooms, and how it's looking right now — light upkeep, or does it need a deeper clean?\n\nI'll get you a price today."
     },
     {
       "id": 9,
-      "category": "Pricing",
-      "title": "Deep clean price varies",
-      "keywords": ["deep price", "deep cost", "deep cleaning price"],
-      "text": "The deep cleaning price depends on the size and current condition of the home. After you share the details (size, bedrooms, bathrooms), I'll send you an exact quote — no surprises, the price we agree on is the price you pay!"
+      "category": "Estimate",
+      "title": "Video walkthrough - plan B",
+      "keywords": ["video", "call", "online estimate", "virtual"],
+      "text": "Totally understand, [Name]! If an in-person visit isn't convenient, we can also do a quick video walkthrough — you walk me through the home on a call and we give you the price right after.\n\nWould that be easier?"
     },
     {
       "id": 10,
-      "category": "Scheduling",
-      "title": "Availability / book a visit",
-      "keywords": ["schedule", "available", "availability", "book", "when", "appointment"],
-      "text": "We'd love to get you on the schedule! What days and times usually work best for you? We'll do our best to find a spot that fits your routine — mornings and afternoons are available."
+      "category": "Price Question",
+      "title": "1st time asking price - standard",
+      "keywords": ["price", "cost", "how much", "first time"],
+      "text": "Totally understand wanting a number up front!\n\nPrice depends on the size and condition of the home, so instead of guessing we do a free 15-minute walkthrough and give you the exact price on the spot. No commitment.\n\nDoes [day] between [time] and [time] work for you?"
     },
     {
       "id": 11,
-      "category": "Scheduling",
-      "title": "Appointment confirmation",
-      "keywords": ["confirm", "confirmation", "booked", "see you"],
-      "text": "Perfect, you're all set! ✨ Your cleaning is confirmed for [DAY, DATE] at [TIME]. We bring all our own supplies and equipment. If anything changes, just send us a message. See you soon!"
+      "category": "Price Question",
+      "title": "Price ask - two slots to choose",
+      "keywords": ["price", "cost", "how much", "options", "slots"],
+      "text": "Great question, [Name]! Every home is a little different, so we give exact prices after a free 15-minute walkthrough — that way you never overpay for a guess.\n\nI have [Tuesday at 10:00 AM] or [Thursday at 4:30 PM] open. Which one is easier for you?"
     },
     {
       "id": 12,
-      "category": "Scheduling",
-      "title": "Reschedule request",
-      "keywords": ["reschedule", "change date", "cancel", "move appointment"],
-      "text": "No problem at all — life happens! 😊 What new day and time would work better for you? I'll check our schedule and confirm right away."
+      "category": "Price Question",
+      "title": "Price ask - speed angle",
+      "keywords": ["price", "cost", "how much", "fast", "today", "quick"],
+      "text": "I can get you an exact number as early as [day], [Name]! The walkthrough is free, takes just 15 minutes, and you get the price on the spot — no commitment.\n\nIs morning or afternoon better for you?"
     },
     {
       "id": 13,
-      "category": "Services",
-      "title": "We bring our own supplies",
-      "keywords": ["supplies", "products", "equipment", "bring", "chemicals", "eco"],
-      "text": "You don't need to provide anything — we bring all our own professional supplies and equipment! If you prefer specific products (or eco-friendly/pet-safe options), just let us know and we're happy to use them."
+      "category": "Price Question",
+      "title": "Price ask - fair pricing angle",
+      "keywords": ["price", "cost", "how much", "fair", "condition"],
+      "text": "We price by size and condition, so you only pay for what your home actually needs — nothing more.\n\nThe 15-minute walkthrough is free and you get the exact price right there. Want me to save [day] at [time] for you?"
     },
     {
       "id": 14,
-      "category": "Services",
-      "title": "Pets are welcome",
-      "keywords": ["pets", "dog", "cat", "animals", "pet friendly"],
-      "text": "We love pets! 🐾 It helps to know in advance how many pets you have and if there's anything we should keep in mind (like keeping a door closed). We use pet-safe products upon request."
+      "category": "Price Question",
+      "title": "Price ask - micro-question first",
+      "keywords": ["price", "cost", "how much", "deep or regular", "question back"],
+      "text": "Happy to get you a price, [Name]! Quick question so I quote it right: are you thinking a one-time deep clean or regular upkeep?\n\nEither way the 15-minute estimate is free — I have [day] at [time] open this week."
     },
     {
       "id": 15,
-      "category": "Services",
-      "title": "Move-in / move-out cleaning",
-      "keywords": ["move", "move-in", "move-out", "moving", "empty house"],
-      "text": "Yes, we do move-in/move-out cleanings! It's a complete top-to-bottom service for an empty home: inside cabinets, appliances, closets, baseboards, and more — perfect for getting a deposit back or starting fresh. Share the home size and I'll send a quote!"
+      "category": "Price Question",
+      "title": "Price ask - hold a spot",
+      "keywords": ["price", "cost", "how much", "hold", "spot", "reserve"],
+      "text": "Totally fair to ask, [Name]! The exact number comes from a free 15-minute walkthrough — no commitment at all.\n\nI have a couple of spots left this week. Want me to hold [day] at [time] for you while you decide?"
     },
     {
       "id": 16,
-      "category": "Follow-up",
-      "title": "After the first cleaning",
-      "keywords": ["follow up", "feedback", "how was it", "first visit"],
-      "text": "Hi! We hope you loved your first cleaning with us! 💛 Was everything to your satisfaction? Your feedback helps us take even better care of your home. If you'd like, I can already reserve your spot for the next visit."
+      "category": "Price Question",
+      "title": "2nd insistence - give a range",
+      "keywords": ["range", "insist", "typical", "ballpark", "second time"],
+      "text": "I hear you! For a [4 bed / 3.5 bath] deep clean in [City], it usually lands somewhere in the [$X–$Y] range, depending on the condition of the home.\n\nThe walkthrough is how we lock in the exact number — free, 15 minutes.\n\nWould [day] at [time] work?"
     },
     {
       "id": 17,
-      "category": "Follow-up",
-      "title": "Review request",
-      "keywords": ["review", "google", "rating", "stars", "recommend"],
-      "text": "So happy you're pleased with our service! If you have a minute, a quick Google review would mean the world to our small business. ⭐ Thank you so much for your trust — see you at the next cleaning!"
+      "category": "Scheduling",
+      "title": "Propose time - direct (default)",
+      "keywords": ["propose", "time", "schedule", "default"],
+      "text": "Does [Wednesday] between [5:00] and [5:30 PM] work for you?"
     },
     {
       "id": 18,
-      "category": "Follow-up",
-      "title": "Polite close - not interested",
-      "keywords": ["not interested", "no thanks", "declined", "maybe later"],
-      "text": "Thank you so much for considering Sparkle Home Cleaning! If anything changes or you'd like a quote in the future, we're always here. Wishing you a wonderful week! 😊"
+      "category": "Scheduling",
+      "title": "Propose time - two options",
+      "keywords": ["two options", "choose", "either"],
+      "text": "I have [Tuesday at 10:00 AM] or [Thursday at 4:30 PM] open. Which one is easier for you?"
     },
     {
       "id": 19,
-      "category": "Pricing",
-      "title": "Payment methods",
-      "keywords": ["payment", "pay", "zelle", "venmo", "cash", "check"],
-      "text": "We accept Zelle, Venmo, cash, or check — whatever is easiest for you! Payment is due on the day of the cleaning. A receipt is available upon request."
+      "category": "Scheduling",
+      "title": "Requested day is full",
+      "keywords": ["full", "booked", "no availability", "alternative"],
+      "text": "[Thursday] is fully booked this week — but I can do [Saturday at 12:00 PM], or first thing [Thursday] next week.\n\nWhich one works better for you?"
     },
     {
       "id": 20,
-      "category": "Services",
-      "title": "Satisfaction guarantee",
-      "keywords": ["guarantee", "satisfaction", "redo", "not happy", "complaint"],
-      "text": "Your satisfaction is our priority! If anything was missed or isn't perfect, let us know within 24 hours and we'll come back and make it right — free of charge, no questions asked."
+      "category": "Scheduling",
+      "title": "Need to check with the owner",
+      "keywords": ["check", "owner", "get back", "availability"],
+      "text": "Perfect, [Name] — let me check our availability for [day] and I'll get right back to you with a time."
+    },
+    {
+      "id": 21,
+      "category": "Booking",
+      "title": "Time accepted - get address & phone",
+      "keywords": ["accepted", "yes", "works", "address", "phone"],
+      "text": "Perfect, [Name]! You're all set for [day] at [time].\n\nCould you confirm the full address and the best phone number?"
+    },
+    {
+      "id": 22,
+      "category": "Booking",
+      "title": "Final confirmation",
+      "keywords": ["confirmed", "final", "see you", "all set"],
+      "text": "Thank you, [Name]! We have your address and phone number.\n\nSee you [Wednesday] at [5:00 PM]!"
+    },
+    {
+      "id": 23,
+      "category": "Booking",
+      "title": "Direct hire - confirm details",
+      "keywords": ["direct", "hire", "confirm details", "ready to book"],
+      "text": "Perfect, [Name]! Let me get you a price.\n\nJust to confirm: [deep clean], [X] bedrooms, [X] bathrooms, around [X] sqft — anything else you'd like included?"
+    },
+    {
+      "id": 24,
+      "category": "Booking",
+      "title": "Coming back with the owner's price",
+      "keywords": ["owner price", "back with price", "quote ready"],
+      "text": "Thanks for waiting, [Name]! For a [deep clean] at [X] bed / [X] bath, we're at [$X] — that includes everything, we bring all our own supplies.\n\nI have [day] at [time] open. Want me to book it for you?"
+    },
+    {
+      "id": 25,
+      "category": "Objections",
+      "title": "\"Are you licensed and insured?\"",
+      "keywords": ["licensed", "insured", "insurance", "trust"],
+      "text": "Yes — we're fully insured, and we bring all our own supplies and equipment.\n\nWould [day] between [time] and [time] work for the walkthrough?"
+    },
+    {
+      "id": 26,
+      "category": "Objections",
+      "title": "\"Do I need to provide anything?\"",
+      "keywords": ["provide", "supplies", "products", "equipment"],
+      "text": "Nope — we bring everything: products, vacuum, all of it. Nothing for you to provide."
+    },
+    {
+      "id": 27,
+      "category": "Objections",
+      "title": "\"What's included in a regular clean?\"",
+      "keywords": ["included", "regular", "what do you clean"],
+      "text": "A regular clean covers dusting, all bathrooms, kitchen surfaces and the outside of appliances, floors vacuumed and mopped, trash out, and general tidying.\n\nIf the home needs more than upkeep, we'd start with a deep clean first.\n\nWhich one sounds closer to what you need?"
+    },
+    {
+      "id": 28,
+      "category": "Objections",
+      "title": "\"How long does the cleaning take?\"",
+      "keywords": ["how long", "duration", "hours", "take"],
+      "text": "It depends on the size and condition of the home — most take a few hours. We'll give you an exact time at the walkthrough.\n\nDoes [day] at [time] work?"
+    },
+    {
+      "id": 29,
+      "category": "Objections",
+      "title": "\"How many cleaners come?\"",
+      "keywords": ["how many", "cleaners", "team", "people"],
+      "text": "Usually a team of 1–2, sometimes 3 for bigger homes."
+    },
+    {
+      "id": 30,
+      "category": "Objections",
+      "title": "\"I'm out of town this week\"",
+      "keywords": ["out of town", "traveling", "away", "next week"],
+      "text": "No problem! We have plenty of availability next week.\n\nWould [Tuesday between 4:30 and 5:00 PM] work for the walkthrough? Just say the word and I'll lock it in."
+    },
+    {
+      "id": 31,
+      "category": "Objections",
+      "title": "\"I just need it once, not regular\"",
+      "keywords": ["once", "one time", "not regular", "single"],
+      "text": "That's totally fine — a lot of people start with a one-time deep clean and decide later.\n\nThe walkthrough is free either way. Does [day] at [time] work?"
+    },
+    {
+      "id": 32,
+      "category": "Objections",
+      "title": "\"Let me think about it\"",
+      "keywords": ["think about it", "maybe", "later", "hold spot"],
+      "text": "Of course, [Name]! The walkthrough is free and only takes 15 minutes, so there's nothing to commit to.\n\nI still have [day] at [time] open — want me to hold it for you?"
+    },
+    {
+      "id": 33,
+      "category": "Follow-up",
+      "title": "Follow-up 1 - same day",
+      "keywords": ["follow up", "same day", "checking back"],
+      "text": "Hi [Name]! Just checking back — does [day] between [time] and [time] still work for the walkthrough?"
+    },
+    {
+      "id": 34,
+      "category": "Follow-up",
+      "title": "Follow-up 2 - next morning (best one)",
+      "keywords": ["follow up", "next day", "morning", "recover"],
+      "text": "Good morning, [Name]! Still happy to get you on the schedule.\n\nI have [day] at [time] open — want me to lock it in for you?"
+    },
+    {
+      "id": 35,
+      "category": "Follow-up",
+      "title": "Follow-up 3 - day 3 with scarcity",
+      "keywords": ["follow up", "day 3", "spots left", "filling up"],
+      "text": "Hi [Name]! We're filling up the schedule for this week and I have a couple of spots left for the free walkthrough.\n\nWant me to save one for you?"
+    },
+    {
+      "id": 36,
+      "category": "Follow-up",
+      "title": "Follow-up 4 - day 5 last call",
+      "keywords": ["follow up", "last", "final", "closing"],
+      "text": "Hi [Name]! I'll stop here so I'm not filling up your inbox 🙂\n\nIf you'd still like that free estimate, just send me a message and I'll get you scheduled the same week."
+    },
+    {
+      "id": 37,
+      "category": "Follow-up",
+      "title": "Reengage with a time in hand",
+      "keywords": ["reengage", "resume", "got schedule", "came back"],
+      "text": "Hi [Name]! Just got our schedule for [this/next week] — I have [day] at [time] open for the free walkthrough.\n\nWant me to save it for you?"
+    },
+    {
+      "id": 38,
+      "category": "Follow-up",
+      "title": "Reengage - answer their question first",
+      "keywords": ["reengage", "unanswered", "coming back", "question"],
+      "text": "Hi [Name]! Coming back to you on this.\n\n[direct answer to what they asked]\n\nDoes [day] at [time] work for the walkthrough?"
+    },
+    {
+      "id": 39,
+      "category": "Reminders",
+      "title": "Day before the visit",
+      "keywords": ["reminder", "tomorrow", "confirm", "day before"],
+      "text": "Hi [Name]! Just confirming your free estimate tomorrow at [time]. See you then!"
+    },
+    {
+      "id": 40,
+      "category": "Reminders",
+      "title": "Day of the visit",
+      "keywords": ["reminder", "today", "day of"],
+      "text": "Hi [Name]! We'll see you today at [time]. Let me know if anything changes."
+    },
+    {
+      "id": 41,
+      "category": "Reminders",
+      "title": "They need to reschedule",
+      "keywords": ["reschedule", "change", "another day"],
+      "text": "No problem at all! I have [day] at [time] or [day] at [time]. Which one is better?"
+    },
+    {
+      "id": 42,
+      "category": "Reminders",
+      "title": "They declined - polite close",
+      "keywords": ["declined", "no", "refused", "close"],
+      "text": "No problem at all, [Name] — thanks for letting me know! If anything changes, I'm right here."
     }
   ]
 }
