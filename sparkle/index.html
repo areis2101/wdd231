@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/tasks.js"></script>
 </head>
 <body>
     <header>
@@ -20,6 +21,7 @@
             <nav id="main-nav" aria-label="Main navigation">
                 <ul>
                     <li><a href="#responses" class="active">Quick Replies</a></li>
+                    <li><a href="#tasks">Daily Tasks</a></li>
                     <li><a href="#about">About</a></li>
                 </ul>
             </nav>
@@ -40,6 +42,22 @@
             <div id="categories" class="categories" aria-label="Filter by category"></div>
             <p id="result-count" class="result-count" aria-live="polite"></p>
             <div id="cards" class="cards"></div>
+        </section>
+
+        <section id="tasks" class="tasks-section">
+            <h2>Daily Tasks ✓</h2>
+            <p class="tasks-hint">Check a task to cross it off. Checkmarks reset automatically every new day — your custom tasks stay.</p>
+            <div class="task-add">
+                <label for="new-task" class="visually-hidden">Add a new task</label>
+                <input type="text" id="new-task" placeholder="Add a task... (e.g., Send reminder to Mrs. Johnson)" maxlength="140">
+                <button id="add-task-btn" class="copy-btn">Add</button>
+            </div>
+            <ul id="task-list" class="task-list"></ul>
+            <h2>Notes 📝</h2>
+            <p class="tasks-hint">Anything you need to remember — saves automatically as you type.</p>
+            <label for="va-notes" class="visually-hidden">Notes</label>
+            <textarea id="va-notes" rows="5" placeholder="Ex: Lead Sarah asked to call back Thursday afternoon..."></textarea>
+            <p id="notes-status" class="tasks-hint" aria-live="polite"></p>
         </section>
 
         <section id="about" class="about">
